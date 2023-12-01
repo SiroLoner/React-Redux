@@ -8,7 +8,7 @@ const { Title } = Typography;
 function App() {
   return (
     <div className='content'>
-      <Title style={{ textAlign: 'center' }}>Dash Board</Title>
+      <Title style={{ textAlign: 'center' }}>Dash Board Todo List</Title>
       <Filters />
       <Divider />
       <TodoList />
